@@ -1,0 +1,28 @@
+{
+  "name": "typescript-playground",
+  "version": "1.0.0",
+  "description": "Estudo da utilização do typescript em projetos",
+  "main": "index.js",
+  "scripts": {
+    "js":"webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kirmayrtomaz/typescript-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kirmayrtomaz/typescript-playground/issues"
+  },
+  "homepage": "https://github.com/Kirmayrtomaz/typescript-playground#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "webpack": "^1.13.3"
+  },
+  "devDependencies": {
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^1.2.2"
+  }
+}
